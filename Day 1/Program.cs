@@ -78,3 +78,35 @@ if(y == null)
 
 //nonnullable
 //int z = null;
+
+//exercies
+//1.
+Console.WriteLine("Enter some text:");
+string ex1 = Console.ReadLine();
+Console.WriteLine(ex1);
+
+//2.
+Console.WriteLine("Enter a number");
+int ex2 = int.Parse(Console.ReadLine());
+ex2++;
+Console.WriteLine(ex2);
+
+//3.
+Console.WriteLine("Enter a number");
+double ex3 = double.Parse(Console.ReadLine());
+ex3 = ex3 + .5;
+Console.WriteLine(ex3);
+
+//4.
+Console.WriteLine("Enter a number");
+double ex4 = double.Parse(Console.ReadLine());
+Console.WriteLine("Enter another number");
+double ex42 = double.Parse(Console.ReadLine());
+Console.WriteLine(ex4 + ex42);
+
+//5.
+Console.WriteLine("Enter a number");
+double ex5 = double.Parse(Console.ReadLine());
+Console.WriteLine("Enter another number");
+double ex52 = double.Parse(Console.ReadLine());
+Console.WriteLine(ex5 * ex52);
